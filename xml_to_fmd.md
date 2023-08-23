@@ -33,8 +33,10 @@ public static Fmd DeserializeXml(string data)
     }
 }
 ```
-2. FMD contrutor
+#### Catatan
+Convert.FromBase64String is wrote here https://github.com/jsmile631/gather/blob/main/FromBase64String.md
 
+2. FMD contrutor
 ```code
 public Fmd(byte[] bytes, int format, string version)
     : base(bytes, format, version)
